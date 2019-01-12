@@ -16,8 +16,8 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: 'NideShop',
-      desc: '仿网易严选微信小程序商城',
+      title: 'GutaiShop',
+      desc: '一米阳光-谷太婴品微信小程序商城',
       path: '/pages/index/index'
     }
   },
@@ -29,7 +29,7 @@ Page({
         that.setData({
           newGoods: res.data.newGoodsList,
           hotGoods: res.data.hotGoodsList,
-          topics: res.data.topicList,
+          //topics: res.data.topicList,
           brand: res.data.brandList,
           floorGoods: res.data.categoryList,
           banner: res.data.banner,
